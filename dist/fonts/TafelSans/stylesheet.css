@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Tafel Sans Pro';
+    src: url('TafelSansPro-Regular.eot');
+    src: local('Tafel Sans Pro Regular'), local('TafelSansPro-Regular'),
+        url('TafelSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-Regular.woff2') format('woff2'),
+        url('TafelSansPro-Regular.woff') format('woff'),
+        url('TafelSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro It';
+    src: url('TafelSansPro-RegularIt.eot');
+    src: local('Tafel Sans Pro Regular It'), local('TafelSansPro-RegularIt'),
+        url('TafelSansPro-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-RegularIt.woff2') format('woff2'),
+        url('TafelSansPro-RegularIt.woff') format('woff'),
+        url('TafelSansPro-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro Bold It';
+    src: url('TafelSansPro-BoldIt.eot');
+    src: local('Tafel Sans Pro Bold It'), local('TafelSansPro-BoldIt'),
+        url('TafelSansPro-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-BoldIt.woff2') format('woff2'),
+        url('TafelSansPro-BoldIt.woff') format('woff'),
+        url('TafelSansPro-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro';
+    src: url('TafelSansPro-Bold.eot');
+    src: local('Tafel Sans Pro Bold'), local('TafelSansPro-Bold'),
+        url('TafelSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-Bold.woff2') format('woff2'),
+        url('TafelSansPro-Bold.woff') format('woff'),
+        url('TafelSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro Light It';
+    src: url('TafelSansPro-LightIt.eot');
+    src: local('Tafel Sans Pro Light It'), local('TafelSansPro-LightIt'),
+        url('TafelSansPro-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-LightIt.woff2') format('woff2'),
+        url('TafelSansPro-LightIt.woff') format('woff'),
+        url('TafelSansPro-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro ExtraLight It';
+    src: url('TafelSansPro-ExtraLightIt.eot');
+    src: local('Tafel Sans Pro ExtraLight It'), local('TafelSansPro-ExtraLightIt'),
+        url('TafelSansPro-ExtraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-ExtraLightIt.woff2') format('woff2'),
+        url('TafelSansPro-ExtraLightIt.woff') format('woff'),
+        url('TafelSansPro-ExtraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro';
+    src: url('TafelSansPro-ExtraLight.eot');
+    src: local('Tafel Sans Pro ExtraLight'), local('TafelSansPro-ExtraLight'),
+        url('TafelSansPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-ExtraLight.woff2') format('woff2'),
+        url('TafelSansPro-ExtraLight.woff') format('woff'),
+        url('TafelSansPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro Black It';
+    src: url('TafelSansPro-BlackIt.eot');
+    src: local('Tafel Sans Pro Black It'), local('TafelSansPro-BlackIt'),
+        url('TafelSansPro-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-BlackIt.woff2') format('woff2'),
+        url('TafelSansPro-BlackIt.woff') format('woff'),
+        url('TafelSansPro-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro ExtraBold It';
+    src: url('TafelSansPro-ExtraBoldIt.eot');
+    src: local('Tafel Sans Pro ExtraBold It'), local('TafelSansPro-ExtraBoldIt'),
+        url('TafelSansPro-ExtraBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-ExtraBoldIt.woff2') format('woff2'),
+        url('TafelSansPro-ExtraBoldIt.woff') format('woff'),
+        url('TafelSansPro-ExtraBoldIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro';
+    src: url('TafelSansPro-Light.eot');
+    src: local('Tafel Sans Pro Light'), local('TafelSansPro-Light'),
+        url('TafelSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-Light.woff2') format('woff2'),
+        url('TafelSansPro-Light.woff') format('woff'),
+        url('TafelSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro';
+    src: url('TafelSansPro-SemiBold.eot');
+    src: local('Tafel Sans Pro SemiBold'), local('TafelSansPro-SemiBold'),
+        url('TafelSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-SemiBold.woff2') format('woff2'),
+        url('TafelSansPro-SemiBold.woff') format('woff'),
+        url('TafelSansPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro';
+    src: url('TafelSansPro-Black.eot');
+    src: local('Tafel Sans Pro Black'), local('TafelSansPro-Black'),
+        url('TafelSansPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-Black.woff2') format('woff2'),
+        url('TafelSansPro-Black.woff') format('woff'),
+        url('TafelSansPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro';
+    src: url('TafelSansPro-ExtraBold.eot');
+    src: local('Tafel Sans Pro ExtraBold'), local('TafelSansPro-ExtraBold'),
+        url('TafelSansPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-ExtraBold.woff2') format('woff2'),
+        url('TafelSansPro-ExtraBold.woff') format('woff'),
+        url('TafelSansPro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro SemiBold It';
+    src: url('TafelSansPro-SemiBoldIt.eot');
+    src: local('Tafel Sans Pro SemiBold It'), local('TafelSansPro-SemiBoldIt'),
+        url('TafelSansPro-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-SemiBoldIt.woff2') format('woff2'),
+        url('TafelSansPro-SemiBoldIt.woff') format('woff'),
+        url('TafelSansPro-SemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro';
+    src: url('TafelSansPro-Thin.eot');
+    src: local('Tafel Sans Pro Thin'), local('TafelSansPro-Thin'),
+        url('TafelSansPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-Thin.woff2') format('woff2'),
+        url('TafelSansPro-Thin.woff') format('woff'),
+        url('TafelSansPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tafel Sans Pro Thin It';
+    src: url('TafelSansPro-ThinIt.eot');
+    src: local('Tafel Sans Pro Thin It'), local('TafelSansPro-ThinIt'),
+        url('TafelSansPro-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('TafelSansPro-ThinIt.woff2') format('woff2'),
+        url('TafelSansPro-ThinIt.woff') format('woff'),
+        url('TafelSansPro-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
