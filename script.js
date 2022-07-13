@@ -14,5 +14,18 @@ hideFreeShippingBtn.addEventListener('click',function() {
     freeShipping.classList.add('hidden');
 });
 
+//////////////////swipper/////////////////
+  const swiper = new Swiper('.swiper', {
+    slidesPerView: 7,
+    spaceBetween: 5,
+    loop:true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
 
+    navigation: {
+    nextEl: '.swiper-button-next',
+    },
 
+  });

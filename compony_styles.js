@@ -20,6 +20,7 @@ module.exports = {
         paragraph: ['TafelSans'],
         main: ['TafelSans'],
         brand : ['Honey'],
+        title : ['Recoleta'],
       },
       colors: {
         mainColor: '#1E293B',

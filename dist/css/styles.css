@@ -434,6 +434,12 @@ video {
   src: url(/dist/fonts/Honey/Honey.ttf);
 }
 
+@font-face {
+  font-family: Recoleta;
+
+  src: url(/dist/fonts/Recoleta/Recoleta-Medium.ttf);
+}
+
 h1 {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -462,12 +468,9 @@ h1 {
 h2 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-  font-family: TafelSans;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgb(30 41 59 / var(--tw-text-opacity));
 }
 
 .dark h2 {
@@ -526,29 +529,9 @@ h3 {
   }
 }
 
-p {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.dark p {
-  --tw-text-opacity: 1;
-  color: rgb(241 245 249 / var(--tw-text-opacity));
-}
-
-@media (min-width: 1280px) {
-  p {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  p {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-}
+/* p {
+    @apply text-lg xl:text-xl 2xl:text-2xl dark:text-gray-100;
+  } */
 
 /* li {
     @apply md:text-xl dark:text-gray-100;
@@ -754,6 +737,10 @@ p {
   position: relative;
 }
 
+.right-5 {
+  right: 1.25rem;
+}
+
 .-right-full {
   right: -100%;
 }
@@ -766,12 +753,16 @@ p {
   bottom: 0px;
 }
 
-.right-0 {
-  right: 0px;
+.bottom-10 {
+  bottom: 2.5rem;
 }
 
-.right-5 {
-  right: 1.25rem;
+.\!bottom-10 {
+  bottom: 2.5rem !important;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 
 .mx-auto {
@@ -779,16 +770,29 @@ p {
   margin-right: auto;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
 }
 
-.ml-16 {
-  margin-left: 4rem;
+.ml-24 {
+  margin-left: 6rem;
 }
 
 .mr-3 {
   margin-right: 0.75rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -803,6 +807,10 @@ p {
   display: table;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
@@ -813,6 +821,10 @@ p {
 
 .h-6 {
   height: 1.5rem;
+}
+
+.h-\[\.5px\] {
+  height: .5px;
 }
 
 .w-full {
@@ -831,12 +843,22 @@ p {
   cursor: pointer;
 }
 
-.items-center {
-  align-items: center;
+.columns-4 {
+  -moz-columns: 4;
+       columns: 4;
 }
 
-.justify-end {
-  justify-content: flex-end;
+.columns-3 {
+  -moz-columns: 3;
+       columns: 3;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
@@ -855,12 +877,16 @@ p {
   justify-content: space-evenly;
 }
 
-.self-end {
-  align-self: flex-end;
+.gap-0 {
+  gap: 0px;
 }
 
-.justify-self-end {
-  justify-self: end;
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .justify-self-center {
@@ -885,8 +911,9 @@ p {
   background-color: rgb(34 34 34 / var(--tw-bg-opacity));
 }
 
-.fill-red-600 {
-  fill: #e11d48;
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -901,20 +928,16 @@ p {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
-}
-
-.text-start {
-  text-align: start;
-}
-
 .font-main {
   font-family: TafelSans;
 }
 
 .font-brand {
   font-family: Honey;
+}
+
+.font-title {
+  font-family: Recoleta;
 }
 
 .text-\[10px\] {
@@ -935,6 +958,11 @@ p {
   line-height: 1rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .tracking-wider {
   letter-spacing: 0.05em;
 }
@@ -944,19 +972,9 @@ p {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(225 29 72 / var(--tw-text-opacity));
-}
-
-.text-red-900 {
-  --tw-text-opacity: 1;
-  color: rgb(136 19 55 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -968,6 +986,11 @@ p {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.after\:hidden::after {
+  content: var(--tw-content);
+  display: none;
 }
 
 .focus\:outline-none:focus {
@@ -1004,6 +1027,18 @@ p {
 
 .\[\&\>\*\]\:ml-1>* {
   margin-left: 0.25rem;
+}
+
+.\[\&\>\*\]\:h-full>* {
+  height: 100%;
+}
+
+.\[\&\>\*\]\:h-96>* {
+  height: 24rem;
+}
+
+.\[\&\>\*\]\:w-full>* {
+  width: 100%;
 }
 
 .\[\&\>\*\]\:px-5>* {
