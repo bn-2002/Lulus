@@ -19,10 +19,15 @@ module.exports = {
         DEFAULT: '0.5rem',
         sm: '1rem',
         lg: '1.5rem',
-        xl: '2rem',
+        xl: '5rem',
       },
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        '3xl': 'rgba(0, 0, 0, 0.15) 0px 5px 15px 0px',
+        '4xl' : 'rgba(0, 0, 0, 0.35) 0px 5px 15px'
+      }
+    },
   },
   variants : {
     backgroundColor: ['focus','hover','focus-within','group-hover','dark'],
