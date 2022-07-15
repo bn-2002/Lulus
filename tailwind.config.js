@@ -25,16 +25,22 @@ module.exports = {
     extend: {
       boxShadow: {
         '3xl': 'rgba(0, 0, 0, 0.15) 0px 5px 15px 0px',
-        '4xl' : 'rgba(0, 0, 0, 0.35) 0px 5px 15px'
+        '4xl' : 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+        '5xl' : 'rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px',
+        '6xl' :'rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px',
       }
     },
   },
   variants : {
     backgroundColor: ['focus','hover','focus-within','group-hover','dark'],
+    padding: ['responsive', 'children', 'children-hover', 'children-first', ],     
     extend : {
       width : ['hover'],
     },
   },
-  plugins: [require('tailwindcss-debug-screens')],
+  plugins: [
+    require('tailwindcss-debug-screens'),
+    require('tailwind-children')
+  ],
 };
 
